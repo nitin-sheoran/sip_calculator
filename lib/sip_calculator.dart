@@ -40,7 +40,7 @@ class _SipCalculatorState extends State<SipCalculator> {
               child: Row(
                 children: [
                   const Text(
-                    'Amount',
+                    'Amount(Rs.)',
                     style: TextStyle(fontSize: 20),
                   ),
              const SizedBox(
@@ -89,7 +89,7 @@ class _SipCalculatorState extends State<SipCalculator> {
               padding: const EdgeInsets.all(8.0),
               child: Row(
                 children: [
-                  const Text('Time(Years)'),
+                  const Text('Time(In Years)'),
                   const SizedBox(
                     width: 8,
                   ),
